@@ -7,17 +7,17 @@
 
     <fragment
         android:id="@+id/accountFragment"
-        android:name="com.example.quizapp.ui.AccountFragment"
+        android:name="recipesapp.ui.AccountFragment"
         android:label="fragment_account"
         tools:layout="@layout/fragment_account" />
     <fragment
         android:id="@+id/settingFragment"
-        android:name="com.example.quizapp.ui.SettingsFragment"
+        android:name="recipesapp.ui.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/blankFragment"
-        android:name="com.example.quizapp.ui.BlankFragment"
+        android:name="recipesapp.ui.BlankFragment"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_blank" />
 </navigation>

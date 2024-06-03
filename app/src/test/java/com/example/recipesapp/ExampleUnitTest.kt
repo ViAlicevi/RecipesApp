@@ -1,4 +1,4 @@
-package com.example.quizapp
+package com.example.recipesapp
 
 import org.junit.Test
 

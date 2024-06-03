@@ -1,18 +1,14 @@
-package com.example.quizapp.activities
+package com.example.recipesapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.SearchView
 import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
-import com.example.quizapp.adapter.FoodAdapter
-import com.example.quizapp.data.Food
-import com.example.quizapp.databinding.ActivityPostBinding
-import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.DatabaseError
-import com.google.firebase.database.ValueEventListener
+import com.example.recipesapp.adapter.FoodAdapter
+import com.example.recipesapp.data.Food
+import com.example.recipesapp.databinding.ActivityPostBinding
 import com.google.firebase.firestore.FirebaseFirestore
 
 class PostActivity : AppCompatActivity() {

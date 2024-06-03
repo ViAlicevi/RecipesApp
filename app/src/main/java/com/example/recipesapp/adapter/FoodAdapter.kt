@@ -1,14 +1,13 @@
-package com.example.quizapp.adapter
+package com.example.recipesapp.adapter
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.example.quizapp.R
-import com.example.quizapp.data.Food
-import com.example.quizapp.databinding.ItemSecretBinding
+import com.example.recipesapp.R
+import com.example.recipesapp.data.Food
+import com.example.recipesapp.databinding.ItemSecretBinding
 
 
 class FoodAdapter(

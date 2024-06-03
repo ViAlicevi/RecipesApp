@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.quizapp">
+    package="recipesapp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,34 +13,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.QuizApp">
         <activity
-            android:name=".activities.PostRecipeActivity"
+            android:name="com.example.recipesapp.activities.PostRecipeActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AddFoodRecipeActivity"
+            android:name="com.example.recipesapp.activities.AddFoodRecipeActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.AccountActivity"
+            android:name="com.example.recipesapp.activities.AccountActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.MainActivity"
+            android:name="com.example.recipesapp.activities.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.PostActivity"
+            android:name="com.example.recipesapp.activities.PostActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.DetailActivity"
+            android:name="com.example.recipesapp.activities.DetailActivity"
             android:exported="false" />
         <activity
             android:name=".activities.SecondActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.ForgotPasswordActivity"
+            android:name="com.example.recipesapp.activities.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".activities.RegisterAcitvity"
+            android:name="com.example.recipesapp.activities.RegisterAcitvity"
             android:exported="false" />
         <activity
-            android:name=".activities.FlashActivity"
+            android:name="com.example.recipesapp.activities.FlashActivity"
             android:exported="true"
             android:screenOrientation="portrait">
             <intent-filter>

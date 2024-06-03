@@ -1,16 +1,14 @@
-package com.example.quizapp.activities
+package com.example.recipesapp.activities
 
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageView
-import android.widget.TextView
 import com.bumptech.glide.Glide
-import com.example.quizapp.R
-import com.example.quizapp.data.Food
-import com.example.quizapp.databinding.ActivityDetailBinding
+import com.example.recipesapp.R
+import com.example.recipesapp.data.Food
+import com.example.recipesapp.databinding.ActivityDetailBinding
 
 class DetailActivity : AppCompatActivity() {
     companion object{

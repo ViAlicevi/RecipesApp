@@ -1,4 +1,4 @@
-package com.example.quizapp.adapter
+package com.example.recipesapp.adapter
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -6,9 +6,8 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.quizapp.R
-import com.example.quizapp.data.Food
-import com.example.quizapp.data.Recipe
+import com.example.recipesapp.R
+import com.example.recipesapp.data.Recipe
 import com.squareup.picasso.Picasso
 
 class RecipeAdapter(private var items:List<Recipe>, private val context: Context):

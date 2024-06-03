@@ -1,9 +1,9 @@
-package com.example.quizapp.activities
+package com.example.recipesapp.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.quizapp.databinding.ActivityForgotPasswordBinding
+import com.example.recipesapp.databinding.ActivityForgotPasswordBinding
 import com.google.firebase.auth.FirebaseAuth
 
 class ForgotPasswordActivity : AppCompatActivity() {

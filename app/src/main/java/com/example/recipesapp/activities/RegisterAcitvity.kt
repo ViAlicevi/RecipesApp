@@ -1,12 +1,12 @@
-package com.example.quizapp.activities
+package com.example.recipesapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Patterns
 import android.widget.Toast
-import com.example.quizapp.data.User
-import com.example.quizapp.databinding.ActivityRegisterAcitvityBinding
+import com.example.recipesapp.data.User
+import com.example.recipesapp.databinding.ActivityRegisterAcitvityBinding
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.DatabaseReference

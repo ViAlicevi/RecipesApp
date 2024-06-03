@@ -1,13 +1,13 @@
-package com.example.quizapp.activities
+package com.example.recipesapp.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.example.quizapp.adapter.RecipeAdapter
-import com.example.quizapp.data.Recipe
-import com.example.quizapp.databinding.ActivityPostRecipeBinding
+import com.example.recipesapp.adapter.RecipeAdapter
+import com.example.recipesapp.data.Recipe
+import com.example.recipesapp.databinding.ActivityPostRecipeBinding
 import com.google.android.gms.tasks.Task
 import com.google.firebase.storage.FirebaseStorage
 import com.google.firebase.storage.ListResult

@@ -1,14 +1,12 @@
-package com.example.quizapp.activities
+package com.example.recipesapp.activities
 
-import android.app.Activity
 import android.app.ProgressDialog
 import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.quizapp.R
-import com.example.quizapp.databinding.ActivityAddFoodRecipeBinding
+import com.example.recipesapp.databinding.ActivityAddFoodRecipeBinding
 import com.google.firebase.storage.FirebaseStorage
 import java.text.SimpleDateFormat
 import java.util.*

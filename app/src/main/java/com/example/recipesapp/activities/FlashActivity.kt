@@ -1,4 +1,4 @@
-package com.example.quizapp.activities
+package com.example.recipesapp.activities
 
 import android.content.Intent
 import android.os.Build
@@ -7,7 +7,7 @@ import android.os.Bundle
 import android.os.Handler
 import android.view.WindowInsets
 import android.view.WindowManager
-import com.example.quizapp.R
+import com.example.recipesapp.R
 
 class FlashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
