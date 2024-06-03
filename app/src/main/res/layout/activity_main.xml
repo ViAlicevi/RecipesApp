@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_ground"
+    tools:context=".activities.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="@color/orange"
+        android:textSize="50dp"
+        android:layout_marginTop="@dimen/size_20dp"
+        android:textStyle="bold"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingTop="80dp">
+
+
+
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/edt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:hint="@string/edt_name"
+                    android:textColor="#363A43"
+                    android:paddingTop="25dp"
+                    android:padding="16dp"
+                    android:background="@drawable/bg_button_white"
+                    android:layout_marginTop="20dp"
+                    android:textColorHint="#7A8089"/>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:passwordToggleEnabled="true"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <EditText
+                    android:id="@+id/edt_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:layout_marginTop="16dp"
+                    android:padding="16dp"
+                    android:imeOptions="actionDone"
+                    android:background="@drawable/bg_button_white"
+                    android:inputType="textPassword"/>
+                <TextView
+                    android:id="@+id/tv_forgotpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Forgot password"
+                    android:layout_gravity="right"
+                    android:paddingTop="16dp"/>
+
+                <Button
+                    android:id="@+id/btn_start"
+                    android:layout_width="150dp"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textSize="18sp"
+                    android:layout_marginTop="16dp"
+                    android:backgroundTint="@color/orange"
+                    android:textColor="@color/white">
+
+                </Button>
+
+                <TextView
+                    android:id="@+id/tv_signin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_account"
+                    android:gravity="center"
+                    android:textSize="20dp"
+                    android:layout_marginTop="16dp">
+
+                </TextView>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:paddingTop="25dp"
+                    android:layout_height="wrap_content">
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterButton
+                        android:id="@+id/fb_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="150dp"
+                        android:src="@drawable/facebook"/>
+
+                    <androidx.constraintlayout.utils.widget.ImageFilterButton
+                        android:id="@+id/google_login"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/size_20dp"
+                        android:src="@drawable/search"/>
+                </LinearLayout>
+
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+</LinearLayout>

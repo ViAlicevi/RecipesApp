@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FoodRecipes</string>
+    <string name="must_login">You must login to continue</string>
+    <string name="no_account">No account? <b>Sign up</b></string>
+    <string name="edt_name">Email</string>
+    <string name="have_account">You have an account? <b>Log in</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="facebook_app_id">1381475272363749</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">56789</string>
+
+
+    <string name="label_edit_text_email">Email</string>
+    <string name="label_edit_text_password">Password</string>
+    <string name="label_text_view_sign_in_with">Sign in with</string>
+    <string name="label_button_sign_in">Sign in</string>
+    <string name="label_button_sign_up">Sign up</string>
+    <string name="label_text_view_sign_up">Sign up</string>
+
+    <!--Dashboard-->
+    <string name="label_text_view_greeting">Enter food name</string>
+    <string name="label_text_view_description">This is the tutorial app</string>
+
+    <!--Detail-->
+    <string name="label_text_view_no_data">No data</string>
+
+</resources>
